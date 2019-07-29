@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>透明定位</title>
+    <style>
+        *{margin: 0;padding: 0;}
+        li{list-style:none;}
+        .box{width: 726px;height: 241px;padding-top: 7px;padding-left: 8px;margin: 100px auto;}
+        .box li{margin-right: 10px;float: left;position: relative;}
+        .box li img{width: 220px;height: 220px;border:5px solid #f3f5f0;}
+        .box li p{width: 228px;height: 228px;position: absolute;top: 0;left: 0;opacity: 0;line-height: 34px;font-size: 14px;color: black;border: 1px solid blue;}
+        .box li p img{width: 23px;height:16px;margin-left: 10px;margin-right: 9px;margin-top: 10px;}
+        .box li:hover p{opacity: 1;background: rgba(255,255,255,0.5);}
+    </style>
+</head>
+<body>
+    <ul class="box">
+        <li><img src="images/img01.jpg"><p><img src="images/logo.gif">中国动物搞笑榜第一名，第一名，第一名，第一名</p></li>
+        <li><img src="images/img02.jpg"><p><img src="images/logo.gif">中国动物搞笑榜第一名，第一名，第一名，第一名</p></li>
+        <li><img src="images/img03.jpg"><p><img src="images/logo.gif">中国动物搞笑榜第一名，第一名，第一名，第一名</p></li>
+    </ul>
+</body>
+</html>

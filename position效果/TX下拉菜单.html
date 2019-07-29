@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>TX下拉菜单</title>
+    <style>
+        *{margin: 0;padding: 0;}
+        li{list-style:none;}
+        a{text-decoration: none;}
+        .nav{width: 500px;height: 71px;border-top: 2px solid white;margin: 50px auto;}
+        .nav li{width: 80px;text-align: center;float: left;}
+        .nav li a{display: block;font-size: 16px;color: #999999;width: 80px;height: 71px;line-height:71px;padding-bottom: 1px;}
+        .nav2{width: 136px;height: 211px;border: 1px solid #e4ebf9;display: none;border-radius: 2px;margin-top: -1px;}
+        .nav2 li{width: 136px;height: 37px;}
+        .nav2 li:first-child{margin-top: 13px;}
+        .nav2 li a{display: block;height: 16px;width: 101px;font-size: 16px;line-height: 16px;margin-left: 15px;padding-left: 6px;margin-top: 11px;text-align: left;}
+        .nav li:hover .nav2{display: block;}
+        .nav li a:hover{background: #e4ebf9;}
+        .nav2 li:hover{background:#e4ebf9;}
+        .nav2 li:hover a{border-left: 3px solid #2f74ff;margin-left: 12px;}
+    </style>
+</head>
+<body>
+    <ul class="nav">
+        <li><a href="#">首页</a></li>
+        <li><a href="#">社区</a>
+            <ul class="nav2">
+                <li><a href="#">游戏开发社区</a></li>
+                <li><a href="#">游戏策划社区</a></li>
+                <li><a href="#">游戏美术社区</a></li>
+                <li><a href="#">VR社区</a></li>
+                <li><a href="#">合作机构</a></li>
+            </ul>
+        </li>
+        <li><a href="#">课堂</a></li>
+        <li><a href="#">项目</a></li>
+        <li><a href="#">活动</a></li>
+        <li><a href="#">峰会</a></li>
+    </ul>
+</body>
+</html>
