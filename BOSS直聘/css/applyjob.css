@@ -1,0 +1,65 @@
+/* css reset */
+*{margin:0;padding: 0;}
+li{list-style-type: none;}
+img{display: block;}
+h1,h2,h3{font-size: 100%;font-weight: normal;display: block;}
+a{text-decoration: none; color: #333333;}
+html,body{height: 100%;}
+body{font-size: 12px;color: #666666;background: #f3f3f3;}
+/* css common */
+.l{float: left;}
+.r{float: right;}
+.rel{position: relative;}
+.container{width: 1170px;margin: 0 auto;position: relative;}
+.container-fluid{width: 100%;position: relative;}
+.clear:hover{content: "";display: block;clear: both;}
+#clear{clear: both;}
+
+/* css header */
+#header{height: 100px;background: white;border-top: 1px solid #f1f2f3;border-bottom: 1px solid #f1f2f3;margin: 0 auto;}
+#header .logo{width: 54px;height: 54px;background: url(../images/Bossbg.png) no-repeat;background-position: -379px 0;margin-top: 22px;}
+#header .nav{margin-left: 21px;height: 98px;}
+#header .nav li{float: left;text-align: center;}
+#header .nav a{font-size: 16px;display: block;height: 98px;line-height: 98px;padding-left: 19px;padding-right: 19px;}
+#header .vol{height: 98px;margin-left: 528px;}
+#header .vol li{float: left;line-height: 98px;}
+#header .vol a{display: inline-block;text-indent: 30px;font-size: 12px;height: 21px;line-height: 21px;background: url(../images/Bossbg.png) no-repeat;}
+#header .vol .Android{background-position: -379px -74px;}
+#header .vol .iPhone{background-position: -379px -115px;}
+#header .vol span{margin-left: 21px;margin-right: 19px;display: inline-block;font-size: 18px;color: #e5e5e5;}
+
+/* css notice */
+.notice{width: calc(100% - 2px);height: 38px;line-height: 38px;color: #b05a2e;background: #fdf8e3;border: 1px solid #ffe7b8;border-radius: 1px;text-align: center;margin: 15px 0 15px 0;}
+
+/* css  banner */
+#banner{width: 1170px;height: 240px;background: url(../images/bannerimg.png) no-repeat;margin-bottom: 15px;}
+
+/* css main */
+#main .left{width: 210px;border: 1px solid #dcdcdc;padding: 4px 39px 0 14px;background: white;margin-right: 13px;}
+.left .sort{height: 104px;width: 210px;height: 104px;margin-bottom: 13px;}
+.left .sort h1{line-height: 37px;font-size: 18px;color: #53cac3;}
+.left .sort .subs li{float: left;margin-right: 24px;line-height: 32px;height: 32px;}
+.left .sort .subs li a{font-size: 12px;color: #999999;}
+.right .seacherBar{height: 56px;border: 1px solid #e0e0e0;background: white;margin-bottom: 15px;}
+.right .seacherBar input{display: block;width: 774px;height: 56px;line-height: 56px;font-size: 18px;font-style: italic;text-indent: 18px;border: none;}
+.right .seacherBar span{display: block;width: 104px;height: 45px;line-height: 45px;margin:5px;text-align: center;font-size: 20px;color: white;background: #5ecfc9;}
+.right .jobBox{background: white;height:117px;padding: 17px 0 0 20px;border: 1px solid #dcdcdc;border-top: none;border-bottom: 2px solid #dcdcdc;margin-bottom: 15px;}
+.right .jobBox  h1{font-size: 22px;color: #333333;line-height: 32px;font-weight: bold;}
+.right .jobBox  h2{font-size: 18px;color: #e85253;line-height: 44px;font-weight: bold;}
+.right .jobBox .jobAsk{height: 26px;}
+.right .jobBox .jobAsk li{float: left;}
+.right .jobBox .jobAsk li span{margin: 0 11px;}
+.right .jobBox .bossInfo{text-align: right;margin-right: 14px;}
+.right .jobBox .bossInfo img{display: inline-block; }
+.right .jobBox .bossInfo h3{margin-right: 7px;color: #a7a7a7;margin-bottom: 10px;}
+.right .jobBox .bossInfo p{color: #a7a7a7;display: block;}
+.right .jobBox .bossInfo .jg{margin: 0 10px 0 7px;}
+.right .jobBox .bossInfo p .bossS{display: inline-block;width: 30px;height: 21px;background: #6bd52c;color: white;margin-left: 11px;line-height: 21px;text-align: center;}
+.right .more{width: 889px;height: 110px;background: url(../images/moreimg.png) no-repeat;border: 1px solid #e0e0e0;margin-bottom: 25px;}
+
+/* css footer */
+#footer{height: 200px;background: #000000;padding-top: 33px;}
+#footer .footerNav{margin: 0 auto;height: 84px;text-align: center;}
+#footer .footerNav li{height: 84px;line-height: 84px;margin: 0 20px;text-align: center;display: inline-block;}
+#footer a{font-size: 16px;color: white;}
+#footer p{height: 28px;line-height: 28px;font-size: 14px;color: white;text-align: center;}

@@ -12,7 +12,7 @@ body{overflow-x: hidden;}
 .rel{position: relative;}
 .container{width: 1170px;margin: 0 auto;position: relative;}
 .container-fluid{width: 100%;position: relative;}
-.clear{content: "";display: block;clear: both;}
+.clear:hover{content: "";display: block;clear: both;}
 
 /* css header */
 #header{height: 100px;background: white;border-top: 1px solid #f1f2f3;border-bottom: 1px solid #f1f2f3;margin: 0 auto;}
@@ -20,7 +20,7 @@ body{overflow-x: hidden;}
 #header .nav{margin-left: 21px;height: 98px;}
 #header .nav li{float: left;text-align: center;}
 #header .nav a{font-size: 16px;display: block;height: 98px;line-height: 98px;padding-left: 19px;padding-right: 19px;}
-#header .vol{height: 98px;/* width: 245px; */margin-left: 528px;}
+#header .vol{height: 98px;margin-left: 528px;}
 #header .vol li{float: left;line-height: 98px;}
 #header .vol a{display: inline-block;text-indent: 30px;font-size: 12px;height: 21px;line-height: 21px;background: url(../images/Bossbg.png) no-repeat;}
 #header .vol .Android{background-position: -379px -74px;}
